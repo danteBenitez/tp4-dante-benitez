@@ -2,8 +2,8 @@
 // el método HTTP utilizado
 
 // Como son controladores simples, se conservan en un archivo;
-// de existir otros endpoints diferentes, habría que separarlos en otros en
-// el directorio controllers
+// de existir otros endpoints diferentes, habría que separarlos en otros, dentro
+// del directorio controllers
 function getController(_req, res) {
     res.send(`Recibida petición HTTP con método GET`);
 }

@@ -22,7 +22,6 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 // Configuración de rutas definidas en ./routes/app.routes.js
-
 // Se establece de modo similar al middleware, con app.use()
 app.use(require('./routes/app.routes'));
 
