@@ -9,12 +9,12 @@ const {
     deleteController
 } = appControllers;
 
-router.get('*', getController);
+router.get('/', getController);
 
-router.post('*', postController);
+router.post('/', postController);
 
-router.put('*', putController);
+router.put('/', putController);
 
-router.delete('*', deleteController);
+router.delete('/', deleteController);
 
 module.exports = router;
